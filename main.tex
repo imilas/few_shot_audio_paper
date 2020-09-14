@@ -16,9 +16,13 @@
 %
 % Single address.
 % ---------------
-\name{Author(s) Name(s)\thanks{Thanks to XYZ agency for funding.}}
-\address{Author Affiliation(s)}
-%
+\name{Amir Salimi and Abram Hindle
+\address{University of Alberta\\
+        Department of Computing Science\\
+        % asalimi@ualberta.ca\\
+        % hindle1@ualberta.ca\\
+        }}
+
 % For example:
 % ------------
 %\address{School\\
@@ -44,16 +48,12 @@
 \maketitle
 %
 \begin{abstract}
-
-We present an approach for learning of percussive sound categories with a small number of examples. 
-A number of recent works have demonstrated effective learning and recreation of sounds given an adequate number of examples. 
-However, effective learning given a small number of exemplars remains a difficult task.
-Here, we utilize recent advancements in few-shot learning to train a virtual ear which can categorize drum types.
-We demonstrate the accuracy of this virtual ear compared to traditional machine learning models when addressing the problem of ``open set recognition''.
-Furthermore, we use this virtual ear to guide the synthesis of novel drum sounds using digital signal processing and demonstrate its
-it's agreeableness with human surveyors. 
-Few-shot learning of sounds is an important step towards recognition of open-sets of sounds and enables a large number of synthesis possibilities. We share our techniques and our datasets of sounds for replication and extension of this work. 
-
+We present a methodology for machine learning of sound categories with a small number of examples. 
+Given an adequate number of examples, automatic learning and recreation of sounds has been demonstrated in a number of recent works.
+However, learning with a small number of exemplars remains a difficult task. Particularly troublesome is the recognition of open sets, often manifesting when the separation of data from noise is needed.
+We utilize few-shot learning to train a virtual ear which can categorize drum types and guide the synthesis of novel drum sounds using a virtual sound synthesizer.
+The success of this virtual ear in categorization of drum sounds and in the separation of noise from desirable sounds is shown in comparison to traditional approaches.
+The Models and dataset of sounds needed for the replication and extension of this work are provided. 
 \end{abstract}
 %
 \begin{keywords}
